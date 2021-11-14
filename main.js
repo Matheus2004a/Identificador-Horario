@@ -6,7 +6,7 @@ function loadPage() {
     const hour = date.getHours()
     messageDay.innerHTML = `Agora são ${hour} horas`
 
-    if (hour >= 0 && hour < 12) {
+    if (hour >= 5 && hour < 12) {
         imgDay.src = "img/Manha.png"
         body.style.backgroundColor = "#fdb902"
     }
